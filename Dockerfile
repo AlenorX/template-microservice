@@ -4,6 +4,8 @@ WORKDIR /template-microservice
 
 COPY . .
 
+RUN cd app
+
 RUN pip install -r requirements.txt
 
 EXPOSE 80
