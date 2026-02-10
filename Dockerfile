@@ -4,8 +4,8 @@ WORKDIR /template-microservice
 
 COPY . .
 
-RUN pip install -r req.txt
+RUN pip install -r requirements.txt
 
-EXPOSE 8080
+EXPOSE 80
 
-CMD ["uvicorn", "main:app",  "--host 127.0.0.1", "--port 8000"]
+CMD ["uvicorn", "main:app",  "--host 0.0.0.0", "--port 80"]
