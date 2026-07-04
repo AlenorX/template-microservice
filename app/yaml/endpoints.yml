@@ -1,0 +1,4 @@
+# You need to write endpoints for the microservice here.
+endpoints:
+  status: "/template/status"
+  root: "/tempate/root"

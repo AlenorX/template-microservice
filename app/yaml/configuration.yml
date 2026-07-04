@@ -1,0 +1,12 @@
+# You need to replace the data here with your own. You can modify this file however you like.
+config-db:
+  host: "ip or url"
+  port: "port"
+  database: "your_database"
+  user: "username"
+  password: "password"
+
+config-broker:
+  host: "ip"
+  port: "port"
+  
